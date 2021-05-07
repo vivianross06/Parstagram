@@ -23,3 +23,4 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+![ezgif com-optimize](https://user-images.githubusercontent.com/49248018/117406807-6a957400-aec2-11eb-9053-daa856987868.gif)
