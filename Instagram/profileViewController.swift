@@ -44,6 +44,7 @@ class profileViewController: UIViewController, UITableViewDelegate, UITableViewD
     func loadMorePosts(){
         numberOfPosts = numberOfPosts + 5
         let query = PFQuery(className: "Posts")
+        query.whereKey("author", equalTo:PFUser.current()!)
         query.order(byDescending: "createdAt")
         query.includeKey("author")
         query.limit = numberOfPosts
